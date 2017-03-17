@@ -10,6 +10,7 @@ clean:
 	rm *.ko
 	rm *.o
 	rm *.mod.c
+	rm .*.cmd
 	rm modules.order
 	rm Module.symvers
 	rm -rf .tmp_versions
