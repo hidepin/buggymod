@@ -15,7 +15,7 @@ MODULE_LICENSE("GPL");
 static void **syscall_table = (void *) __SYSCALL_TABLE_ADDRESS__;
 
 struct file *file;
-char chkword[] = "hoge";
+char chkword[] = "hogehoge";
 
 asmlinkage long (*orig_sys_close)(unsigned int fd);
 
